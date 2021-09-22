@@ -1,0 +1,9 @@
+obstacle_range: 2.5
+raytrace_range: 3.0
+footprint: [[0.21, 0.24], [0.21,0.08],[0.44,0.08],[0.44,-0.08],[0.21,-0.08],[0.21, -0.24], [-0.21, -0.24],[-0.21, 0.24]]
+
+inflation_radius: 0.15
+
+observation_sources: laser_scan_sensor 
+
+laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: scan, marking: true, clearing: true}
